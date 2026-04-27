@@ -1,6 +1,23 @@
+# === Compilación y Maven ===
 /target/
+*.class
+*.jar
+
+# === Metadatos de IDEs ===
 .settings/
 .classpath
 .project
 .vscode/
-*.class
+.idea/
+
+# === Archivos de Lucene ===
+/index/
+
+# === Entregables de la Universidad ===
+*.zip
+*.rar
+*.tar.gz
+
+# === Archivos de Sistema Operativo ===
+.DS_Store
+Thumbs.db
