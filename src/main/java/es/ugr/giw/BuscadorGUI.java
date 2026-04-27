@@ -47,7 +47,6 @@ public class BuscadorGUI extends JFrame {
 
     private void configurarVentana() {
         setLayout(new BorderLayout());
-
         JPanel panelNorte = new JPanel(new FlowLayout());
         txtBusqueda = new JTextField(40);
         JButton btnBuscar = new JButton("Buscar");
